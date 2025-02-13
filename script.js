@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
     const card = document.querySelector('.card');
     const canvas = document.getElementById('scratchCanvas');
@@ -8,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const brushSize = 25;
 
     // Flip de la carta
-    card.addEventListener('click', 'touch' () => {
+    card.addEventListener('click', () => {
         if (!card.classList.contains('flipped')) {
             card.classList.add('flipped');
             initScratch();
