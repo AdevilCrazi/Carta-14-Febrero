@@ -1,7 +1,3 @@
-element.addEventListener ( 'pointerup' , ( event ) => { 
-    if (event. pointerType === "mouse" ) {
-     if (event. pointerType === "touch" ) {
-     if (event. pointerType === "pen" ) }}});
 
 document.addEventListener('DOMContentLoaded', () => {
     const card = document.querySelector('.card');
@@ -12,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const brushSize = 25;
 
     // Flip de la carta
-    card.addEventListener('click', () => {
+    card.addEventListener('click', 'touch' () => {
         if (!card.classList.contains('flipped')) {
             card.classList.add('flipped');
             initScratch();
