@@ -1,3 +1,4 @@
+element.addEventListener ( 'pointerup' , ( event ) => { if (event. pointerType === "mouse" ) {} if (event. pointerType === "touch" ) {} if (event. pointerType === "pen" ) {} });
 document.addEventListener('DOMContentLoaded', () => {
     const card = document.querySelector('.card');
     const canvas = document.getElementById('scratchCanvas');
